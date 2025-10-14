@@ -14,7 +14,7 @@ const Header = () => {
 
         {/* GitHub Icon Button */}
         <a 
-          href="https://github.com/Siddharth015/EasyDocs" 
+          href="https://github.com/JK-77/EasyDocs" 
           target="_blank" 
           rel="noopener noreferrer"
           aria-label="GitHub Repository"
