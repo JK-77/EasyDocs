@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  .dark {
+    --background: #111827;
+    --text-primary: #FFFFFF;
+    --text-secondary: #9CA3AF;
+    
+    --accent-start: #3B82F6; 
+    --accent-end: #1417defa;  
+
+    --glass: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --dot-color: rgba(255, 255, 255, 0.1);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-secondary);
+    font-family: 'Inter', sans-serif;
+    background-image: radial-gradient(var(--dot-color) 1px, transparent 0);
+    background-size: 25px 25px;
+  }
+}
+
+.text-gradient-effect {
+  background-image: linear-gradient(to right, var(--accent-start), var(--accent-end));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; 
+}
+
+.bg-gradient-primary {
+  background-image: linear-gradient(to right, var(--accent-start), var(--accent-end));
+}
+
+@keyframes tailWag {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg); 
+  }
+}
+
+.animate-tail-wag {
+  animation: tailWag 2s ease-in-out infinite;
+  transform-origin: bottom center;
+}
