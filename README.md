@@ -88,7 +88,7 @@ Before you can run the application, you need to provide your secret API keys to 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/mitali-dxt/EasyDocs.git](https://github.com/mitali-dxt/EasyDocs.git)
+    git clone [https://github.com/JK-77/EasyDocs]
     cd EasyDocs
     ```
 
